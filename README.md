@@ -1,83 +1,110 @@
-Alien Invasion Game
+# Alien Invasion — 2D Arcade Shooting Game
 
-Description
+Alien Invasion is a Python-based arcade game where the player controls a spaceship to defend Earth from waves of alien attacks.  
+The objective is to destroy incoming alien fleets while avoiding collisions and preventing them from reaching the bottom of the screen.  
+The game becomes progressively challenging as speed and difficulty increase with each level.
 
-Alien Invasion is a 2D arcade-style game where the player controls a spaceship to defend Earth from waves of alien attacks. The objective is to shoot down as many alien ships as possible while avoiding getting hit. The game becomes progressively challenging as the aliens increase in number and speed.
+---
 
-Features
+## Features
 
-Player-controlled spaceship that can move left, right, and fire bullets.
+- Player-controlled spaceship with smooth left and right movement
+- Bullet-firing mechanism for destroying alien ships
+- Waves of enemy fleets with increasing speed and difficulty
+- Score tracking system
+- Level progression based on clearing alien waves
+- Game Over when:
+  - the spaceship is hit, or  
+  - aliens reach the bottom of the screen
 
-Waves of alien ships that move horizontally and descend when they hit the screen edges.
+---
 
-Score system to track the player’s progress.
+## Gameplay
 
-Levels that increase in difficulty as the game progresses.
+### Objective
+Eliminate all alien ships before they reach the bottom of the screen or destroy the player's spaceship.
 
-Game Over when the player’s ship is hit or aliens reach the bottom of the screen.
+### Controls
+- **Arrow Keys** — Move spaceship left or right  
+- **Spacebar** — Fire bullets
 
-Gameplay
+### Rules
+- Each destroyed alien increases the score
+- Difficulty increases with each level
+- Survive as long as possible to achieve a high score
 
-Objective: Destroy all alien ships before they reach the bottom of the screen or destroy your spaceship.
+---
 
-Controls:
+## Software and Tools Requirements
 
-Arrow Keys: Move the spaceship left or right.
+1. [GitHub Account](https://github.com)  
+2. [VS Code IDE](https://code.visualstudio.com/)  
+3. [Python Installed](https://www.python.org/downloads/)  
+4. [Git CLI](https://git-scm.com/book/en/v2/Getting-Started-The-Command-Line)
 
-Spacebar: Shoot bullets.
+---
 
-Rules:
+## Installation and Setup
 
-Each alien ship destroyed increases the score.
+### Clone the repository:
 
-Survive as long as possible to achieve a high score.
+- https://github.com/TusharRaut01/Alien-Invasion-Game.git
+- cd alien-invasion
 
-Installation and Setup
+### Install dependencies:
 
-Clone the repository:
+- pip install pygame
 
-git clone https://github.com/your-username/alien-invasion.git
-cd alien-invasion
+### Run the game:
 
-Install dependencies:
-Ensure Python is installed on your system, along with the pygame library.
 
-pip install pygame
+---
 
-Run the game:
+## Prerequisites
 
-python alien_invasion.py
+- Python 3.6 or higher  
+- `pygame` library installed
 
-Prerequisites
+---
 
-Python 3.6 or higher.
+## Project Structure
 
-pygame library (install with pip install pygame).
+### alien-invasion
+- alien_invasion.py # Main game loop and execution.
+- settings.py # Screen size, speed, and configuration.
+- ship.py # Player spaceship behavior.
+- alien.py # Alien movement and logic.
+- bullet.py # Bullet behavior and collisions.
+- game_stats.py # Score and life tracking.
+- scoreboard.py # On-screen score display.
 
-Code Structure
 
-alien_invasion.py: Main game logic.
+---
 
-settings.py: Configuration for game settings like screen size, colors, and speed.
+## Future Improvements
 
-ship.py: Code for the player-controlled spaceship.
+- Power-ups for enhanced spaceship abilities.
+- Multiple spaceship designs.
+- New alien types with varied movement patterns.
+- Background music and sound effects.
+- Multiplayer mode.
 
-alien.py: Code for alien ship behavior.
+---
 
-bullet.py: Code for bullets fired by the spaceship.
+## Status
 
-game_stats.py: Code to handle game statistics like scores and lives.
+This project is complete and playable.
 
-scoreboard.py: Display for score and other stats.
+---
 
-Future Improvements
+## Contribution
 
-Add power-ups for the spaceship.
+Contributions are welcome.  
+You may submit issues, suggest improvements, or open pull requests.
 
-Implement multiple spaceship designs.
+---
 
-Introduce new alien types with varied behaviors.
+## License
 
-Add multiplayer mode.
+This project is licensed under the MIT License.
 
-Include background music and sound effects.
