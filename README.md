@@ -104,7 +104,4 @@ You may submit issues, suggest improvements, or open pull requests.
 
 ---
 
-## License
-
-This project is licensed under the MIT License.
 
